@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    open-in-view: false
+  profiles:
+    include:
+      - override
+
+slack:
+  token: ${secret.slack.token}
+  channelId: ${secret.slack.channelId}
